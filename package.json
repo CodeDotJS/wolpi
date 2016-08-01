@@ -1,0 +1,49 @@
+{
+  "name": "wolpi",
+  "version": "1.0.0",
+  "description": "Find link to WallpaperOfTheDay and easily fetch random wallpaper's link",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedotjs/wolpi.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "wallpaper",
+    "random",
+    "fetch",
+    "extract",
+    "links",
+    "URL",
+    "beautiful",
+    "awesome",
+    "WallpaperOfTheDay",
+    "thepaperwall",
+    "api"
+  ],
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "got": "^6.3.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/codedotjs/wolpi/issues"
+  },
+  "homepage": "https://github.com/codedotjs/wolpi#readme",
+  "main": "index.js"
+}
